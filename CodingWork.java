@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class CodingWork<nub, numb> {
+public class CodingWork {
 
 	public static void main(String[] args) {
 		System.out.println(theirProduct(new int[]{1, 3, 4}, 1));
@@ -13,9 +13,7 @@ public class CodingWork<nub, numb> {
 
 	public static int theirProduct(int[] array, int a) {
 		for (int i : array) {
-
 			a *= i;
-
 		}
 		return a;
 	}
@@ -54,7 +52,6 @@ public class CodingWork<nub, numb> {
 		}
 		return ok;
 	}
-
 
 	private static String textDoc(String sentences) {
 		String[] text1 = sentences.split("\\. ");
